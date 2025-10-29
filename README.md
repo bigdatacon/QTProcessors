@@ -20,8 +20,8 @@ gcc -std=c11 -O2 -Wall -Wextra -pthread main.c cpu_monitor.o -o cpu_monitor
 ## Запуск qt графика - в qt creator:
 собрать ->запустить
 
-В терминале:
-## В папке с Qt проектом
+## В терминале:
+В папке с Qt проектом
 qmake cpu_server.pro
 make
 ./cpu_server
